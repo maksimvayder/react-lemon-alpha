@@ -22,4 +22,11 @@ describe('Music App - Core Features', () => {
     MusicAppPage.addSelectedTracks();
     MusicAppPage.verifyAddedTracksCount(3);
   });
+
+  it('should display no results for a non-existing track', () => {
+    const searchQuery = 'NonExistingTrackName';
+    MusicAppPage.searchForTrack(searchQuery);
+    MusicAppPage.verifyNoResults();
+  });
 });
+
