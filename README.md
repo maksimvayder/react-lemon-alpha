@@ -8,16 +8,12 @@ This repository contains tests for the Music App using Cypress.
 - Сypress
 
 ## Installation
-1. Clone the repository:
-   
-   git clone <repository-url>
+1 Fork the repo.
+2. Clone the repository: 'git clone <repository-url>'
+3. Navigate to the project directory: 'cd react-alpha-lemon'
 
-2. Navigate to the project directory:
-cd react-alpha-lemon
+4. Install dependencies:
+   Run the command 'npm install'
+   Run the command 'npm install cypress'
 
-3. Install dependencies:
-npm install
-npm install cypress
-
-4. Run Test
-npx cypress open
+5. Run Test 'npx cypress open'
